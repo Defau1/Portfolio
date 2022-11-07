@@ -1,0 +1,178 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    height: 100%;
+    background: rgb(199,208,204);
+}
+
+img {
+    display: block;
+}
+
+        /*header*/
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        }
+
+.header {
+    height: 80px;
+    background: rgb(187, 181, 177);
+}
+
+.header-container {
+    width: 1036px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    border-bottom: 2px solid rgb(146, 123, 117);
+}
+
+.nav {
+    padding-top: 32px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+.nav-item {
+    margin-right: 154px;
+    text-decoration: none;
+    color: rgb(194, 170, 146);
+    background: rgb(125, 136, 148);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-item:hover {
+    opacity: 0.4;
+}
+
+        /*main*/
+
+.main {
+
+}
+
+.main-container {
+    width: 1036px;
+    height: 140px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    width: 1036px;
+    font-size: 18px;
+    color: #1c1e25;
+    padding-bottom: 30px;
+}
+
+.name-content {
+    
+}
+
+.name {
+    color: rgb(73,103,141);
+    background: rgb(176,183,198);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.city_age {
+    margin-left: 32%;
+    color: rgb(73,103,141);
+    background: rgb(176,183,198);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.ru_eng {
+    margin-left: auto;
+    rotate: -90deg;
+    color: rgb(73,103,141);
+    background: rgb(176,183,198);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.img-container {
+   
+}
+
+.main-img {
+    position: absolute;
+    left: 470px;
+    padding-top: 40px;
+    
+}
+
+    /* about me */
+
+.main {
+
+}
+
+.main-container2 {
+    width: 636px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.main-header {
+    padding-top: 10px;
+    border-top: 2px solid grey;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.main-text p {
+    font-size: 22px;
+    padding-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.main-text p:last-child {
+    border-bottom: 2px solid grey;
+}
+
+        /*portfolio*/
+
+
+.main-project {
+    position: absolute;
+    left: 420px;
+    padding-top: 130px;
+}

@@ -1,0 +1,99 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    height: 100%;
+    background: rgb(221, 210, 210);
+}
+
+img {
+    display: block;
+}
+
+        /*header*/
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        }
+
+.header {
+    height: 80px;
+    background: rgb(187, 181, 177);
+}
+
+.header-container {
+    width: 1036px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    border-bottom: 2px solid rgb(146, 123, 117);
+}
+
+.nav {
+    padding-top: 32px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+.nav-item {
+    margin-right: 154px;
+    text-decoration: none;
+    color: rgb(194, 170, 146);
+    background: rgb(125, 136, 148);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-item:hover {
+    opacity: 0.4;
+}
+
+        /* about me */
+
+.main {
+
+}
+
+.main-container2 {
+    width: 636px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.main-header {
+    padding-top: 10px;
+    border-top: 2px solid grey;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.main-text p {
+    font-size: 22px;
+    padding-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.main-text p:last-child {
+    border-bottom: 2px solid grey;
+}
